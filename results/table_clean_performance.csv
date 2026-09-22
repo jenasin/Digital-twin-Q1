@@ -1,0 +1,10 @@
+arch,regime,beh_f1,beh_acc,beh_ece,ly_acc,cbt_mae,oracle_disagree_cool,oracle_disagree_feed,oracle_disagree_heat,oracle_disagree_lying
+direct,-,,,,,,0.0,,0.0,0.0
+gru,aug,0.965,0.975,0.022,0.996,0.026,0.0,,0.006,0.006
+gru,clean,0.959,0.972,0.017,0.998,0.007,0.0,,0.0,0.002
+lgbm,aug,0.964,0.973,0.017,0.997,0.018,0.0,,0.005,0.01
+lgbm,clean,0.982,0.987,0.01,0.996,0.003,0.0,,0.0,0.006
+ssm,aug,0.961,0.97,0.025,0.997,0.022,0.0,,0.003,0.006
+ssm,clean,0.958,0.972,0.019,0.999,0.008,0.0,,0.002,0.006
+transformer,aug,0.968,0.975,0.019,0.997,0.024,0.0,,0.003,0.008
+transformer,clean,0.963,0.973,0.016,0.998,0.006,0.0,,0.0,0.006
