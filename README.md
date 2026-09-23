@@ -38,3 +38,7 @@ evaluation grid (inference of the selective state-space ensembles dominates).
 
 Note: LightGBM and PyTorch are never imported into the same process. On macOS their two OpenMP
 runtimes crash intermittently when loaded together.
+
+## License
+
+MIT (see `LICENSE`). The MmCows data set is distributed by its original authors under its own terms.
